@@ -6,9 +6,6 @@ import React, { useState } from 'react'
 const NavBar = ({ user, handleSignOut }) => {
 
     const [menuOpen, setMenuOpen] = useState(false)
-
-
-
     return (
         
         <div className={styles.navContainer}>
