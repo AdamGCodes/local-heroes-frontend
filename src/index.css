@@ -6,6 +6,8 @@
 }
 .main-content{
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin: 50px 25% 50px 25%;
   width: 50%;
@@ -43,11 +45,10 @@ a:hover {
 
 body {
   margin: 0;
+  padding: 0%;
   display: flex;
   flex-direction: column;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   width: 100%;
   height: 100%;
   background-image: url('../images/body-background.svg');
