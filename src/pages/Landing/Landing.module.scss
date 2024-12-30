@@ -4,9 +4,17 @@
 }
 
 .landingCopy {
-  background: #FEAC3F;
-  padding: 24px 38px;
-  margin-bottom: 24px;
+        display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px;
+          width: 300px;
+          font-size: 20pt;
+          font-family: Lexend, Helvetica, sans-serif;
+          background-color: white;
+          border: solid black 5px;
+          border-radius: 2rem;
+          box-shadow: 5px 5px black;
 }
 
 .buttonAuth {
